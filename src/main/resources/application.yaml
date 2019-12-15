@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://ec2-54-247-96-169.eu-west-1.compute.amazonaws.com:5432/d77l3bd7bn7arj?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory
+    username: mejjilnnvqbcld
+    password: 5f480ef1acb382c69a283eb8fd1ac6652679c7e32b5168bf73aa48e806b3a9e1
